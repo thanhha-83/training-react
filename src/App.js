@@ -10,13 +10,13 @@ import { NumberList, NumberListV2 } from './main-concepts/lists-and-keys';
 import { NameForm, EssayForm, FlavorForm, Reservation } from './main-concepts/forms';
 import Calculator from './main-concepts/lifting-state-up/Calculator';
 import SignUpDialog from './main-concepts/composition-vs-inheritance/SignUpDialog';
+import PRODUCTS from './main-concepts/thinking-in-react/PRODUCTS';
+import FilterableProductTable from './main-concepts/thinking-in-react/FilterableProductTable';
 
 // Ví dụ trong khóa học trên phluralsight
 import { Challenge1, OneWayDataFlow } from './phluralsight/the-basic';
 import GithubCardApp from './phluralsight/the-github-card-app/GithubCardApp';
 import StarMatch from './phluralsight/the-star-match-game/StarMatch';
-import PRODUCTS from './main-concepts/thinking-in-react/PRODUCTS';
-import FilterableProductTable from './main-concepts/thinking-in-react/FilterableProductTable';
 
 function App() {
   const user = {
