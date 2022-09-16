@@ -15,6 +15,8 @@ import SignUpDialog from './main-concepts/composition-vs-inheritance/SignUpDialo
 import { Challenge1, OneWayDataFlow } from './phluralsight/the-basic';
 import GithubCardApp from './phluralsight/the-github-card-app/GithubCardApp';
 import StarMatch from './phluralsight/the-star-match-game/StarMatch';
+import PRODUCTS from './main-concepts/thinking-in-react/PRODUCTS';
+import FilterableProductTable from './main-concepts/thinking-in-react/FilterableProductTable';
 
 function App() {
   const user = {
@@ -129,6 +131,12 @@ function App() {
         <div className='wrapper-box'>
           <h4 className='bg-cyan'>Thông báo đăng nhập</h4>
           <SignUpDialog />
+        </div>
+
+        <h3>12. Thinking in React</h3>
+        <div className='wrapper-box'>
+          <h4 className='bg-cyan'>Ứng dụng tìm kiếm sản phẩm</h4>
+          <FilterableProductTable products={PRODUCTS} />
         </div>
       </section>
       <section className='phluralsight'>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import CardList from "./CardList";
 import FormSearch from './FormSearch'
+import './GithubCardApp.css'
 
 // gaearon, sophiebits, sebmarkbage, bvaughn
 const testData = [
