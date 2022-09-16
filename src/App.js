@@ -8,6 +8,8 @@ import { Form, Toggle } from './main-concepts/handling-events';
 import { Greeting, LoginControl, Mailbox, LoginState, Page } from './main-concepts/conditional-rendering';
 import { NumberList, NumberListV2 } from './main-concepts/lists-and-keys';
 import { NameForm, EssayForm, FlavorForm, Reservation } from './main-concepts/forms';
+import Calculator from './main-concepts/lifting-state-up/Calculator';
+import SignUpDialog from './main-concepts/composition-vs-inheritance/SignUpDialog';
 
 // Ví dụ trong khóa học trên phluralsight
 import { Challenge1, OneWayDataFlow } from './phluralsight/the-basic';
@@ -115,6 +117,18 @@ function App() {
 
           <h4 className='bg-cyan'>d/ Handling Multiple Inputs</h4>
           <Reservation />
+        </div>
+
+        <h3>10. Lifting State Up</h3>
+        <div className='wrapper-box'>
+          <h4 className='bg-cyan'>Máy tính chuyển đổi đơn vị nhiệt độ</h4>
+          <Calculator />
+        </div>
+
+        <h3>11. Composition vs Inheritance</h3>
+        <div className='wrapper-box'>
+          <h4 className='bg-cyan'>Thông báo đăng nhập</h4>
+          <SignUpDialog />
         </div>
       </section>
       <section className='phluralsight'>
