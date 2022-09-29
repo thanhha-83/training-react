@@ -20,3 +20,45 @@ body {
 .bg-cyan {
   background-color: cyan;
 }
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  background-color: #ccc;
+  border: 0.5px solid #eee;
+  padding: 10px 30px;
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  transition: all .25s;
+}
+.nav-item:hover {
+  background-color: #eee;
+  border-color: #ccc;
+}
+
+.cardmin img {
+  width: 100%;
+}
+
+.heartredbutton {
+  background-color: red;
+}
+
+.heartblackbutton {
+  background-color: #000;
+}
+
+.favor-btn {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  padding: 10px 20px;
+  color: #fff;
+}

@@ -1,0 +1,12 @@
+.img-on-mouse {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.img-on-scroll {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
