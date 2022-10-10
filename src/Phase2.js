@@ -11,6 +11,9 @@ import EmailValidatingForm from './using-hook/combine-existing-react-hooks/Email
 import { GlobalProvider } from './using-hook/useContext-useReducer-useCallback-useMemo/GlobalState';
 import { FavoriteClickCountProvider } from './using-hook/useContext-useReducer-useCallback-useMemo/FavoriteClickCountContext';
 
+import AdvancedApp from './advanced-react/fullstack-javascript-with-reactjs/AdvancedApp';
+import { testData } from './advanced-react/fullstack-javascript-with-reactjs/testData';
+
 export const ConfigContext = React.createContext();
 
 const configValue = {
@@ -46,6 +49,14 @@ function Phase2() {
             <h3>5. Learn How to Combine Existing React Hooks into New Combined Hooks</h3>
             <div className='wrapper-box'>
               <EmailValidatingForm />
+            </div>
+          </section>
+          <section className='phluralsight'>
+            <h2>IV. Bài tập Advanced React.JS 17 phluralsight</h2>
+
+            <h3>3. Fullstack javascript với React.JS</h3>
+            <div className='wrapper-box'>
+            <AdvancedApp articles={testData.data.articles} authors={testData.data.authors} />,
             </div>
           </section>
         </FavoriteClickCountProvider>
